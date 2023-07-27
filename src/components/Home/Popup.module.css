@@ -1,0 +1,64 @@
+.form {
+  position: relative;
+  background-color: white;
+  color: #000;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 5px;
+  padding: 45px;
+  font-size: 1.2rem;
+  width: 80%;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+
+.form img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.detail {
+  margin-left: 10px;
+}
+
+.detail p:first-child {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.detail p:nth-child(2) {
+  margin: 10px 0;
+  font-weight: 550;
+}
+
+.detail button:first-child {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  padding: 10px;
+  background-color: white;
+}
+
+.btn_viewdetail {
+  margin-top: 20px;
+  border: none;
+  background-color: #000;
+  color: white;
+  padding: 10px 60px;
+}
+
+.detail button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.detail button span {
+  margin-left: 7px;
+}

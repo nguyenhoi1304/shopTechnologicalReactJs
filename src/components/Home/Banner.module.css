@@ -1,0 +1,43 @@
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  max-width: 300px;
+}
+.content p {
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.content p:first-child {
+  font-size: 1rem;
+  opacity: 0.5;
+  font-weight: 600;
+}
+.content p:nth-child(2) {
+  font-size: 2.2rem;
+}
+
+.content button {
+  padding: 15px 40px;
+  background-color: rgb(0, 0, 1);
+  color: white;
+  border: none;
+  opacity: 0.8;
+}
+.content button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}

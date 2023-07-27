@@ -1,0 +1,35 @@
+.cart_left {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 20px;
+  text-align: center;
+  grid-template-rows: 1fr;
+  margin: 100px 0;
+}
+
+.cart_left p {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+
+.btn_add,
+.btn_remove {
+  padding: 0 10px;
+}
+
+.btn_add:hover,
+.btn_remove:hover {
+  background-color: #ccc;
+  scale: 1.1;
+}
+
+.icon_remove:hover {
+  background-color: #ccc;
+  scale: 1.1;
+  cursor: pointer;
+}

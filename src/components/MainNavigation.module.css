@@ -1,0 +1,43 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  align-items: center;
+  font-weight: 600;
+  font-style: italic;
+  padding: 15px 0;
+}
+
+.nav__left {
+  display: flex;
+}
+
+.nav__right {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  gap: 1rem;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.active {
+  color: rgb(177, 177, 90);
+}
+
+.btn_logout,
+.btn_login {
+  border: none;
+  background-color: white;
+  font-weight: 600;
+}
+.btn_logout:hover,
+.btn_login:hover {
+  color: rgb(165, 79, 79);
+}

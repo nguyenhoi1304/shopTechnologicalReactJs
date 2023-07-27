@@ -1,0 +1,138 @@
+/* Danh sách các danh mục */
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+.categoryList2 ul,
+.categoryList1 ul {
+  padding: 0;
+}
+
+.title p {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.title p:first-child {
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+.title p:nth-child(2) {
+  font-size: 2.2rem;
+  font-style: italic;
+}
+
+.categoryList1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+.categoryList1 img,
+.categoryList2 img {
+  width: 100%;
+}
+.categoryList2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.categoryList1 img:hover,
+.categoryList2 img:hover {
+  opacity: 0.7;
+}
+
+/* /////////////////////////////// */
+/* Danh sách các sản phẩm */
+.titleTrending {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.titleTrending p {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.titleTrending p:first-child {
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+.titleTrending p:nth-child(2) {
+  font-size: 2.2rem;
+  font-style: italic;
+}
+
+.listTopTrending {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+
+.imgTopTrending {
+  width: 100%;
+  object-fit: cover;
+}
+
+.imgTopTrending:hover {
+  opacity: 0.7;
+}
+
+.information {
+  text-align: center;
+}
+
+/* //////////////////////// */
+/* other information */
+
+.nameRow1 p:first-child {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nameRow1 p:nth-child(2) {
+  opacity: 0.7;
+  text-transform: capitalize;
+}
+
+.row1 {
+  background-color: #f2f2f2a2;
+  padding: 40px;
+}
+
+/* Row2 */
+.row2 {
+  padding: 70px 0;
+}
+.nameRow2Left p:first-child {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.nameRow2Left p:nth-child(2) {
+  opacity: 0.7;
+  text-transform: capitalize;
+}
+
+.nameRow2Right {
+  display: flex;
+}
+
+.nameRow2Right input {
+  padding: 20px 0 20px 10px;
+  width: 100%;
+}
+
+.nameRow2Right button {
+  border: none;
+  background-color: #000;
+  color: white;
+  padding: 0 10px;
+}
+.nameRow2Right button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

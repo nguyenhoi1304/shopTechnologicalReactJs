@@ -1,0 +1,30 @@
+/* yourOder */
+.yourOder {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.yourOder section p span:first-child {
+  font-weight: 600;
+}
+
+.yourOder h4 {
+  margin-bottom: 20px;
+}
+.yourOder p {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+}
+.yourOder p span:nth-child(2) {
+  margin: 0 5px 0 30px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+.total span {
+  font-weight: 600;
+}
